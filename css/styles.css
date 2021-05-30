@@ -201,14 +201,14 @@ body {
 .hero {
   /* height: 600px; */
   background-color: var(--hero-background-color);
-
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero-container {
   text-align: center;
   background-color: var(--hero-background-color);
-  padding-top: 106px;
-  padding-bottom: 106px;
+
 } 
 
 .hero-title {
@@ -251,8 +251,25 @@ body {
 /* hero section */
 
 /* advantages section */
+.adv-section {
+  padding-bottom: 0;
+}
+
+.adv-list {
+  display: flex;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.adv-list-item:not(:last-child) {
+  margin-right: 30px;
+}
+
 .adv-title {
   text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 10px;
 }
 /* advantages section */
 
@@ -260,6 +277,19 @@ body {
 .what-are-we-doing-title {
   font-size: 36px;
   line-height: 1.17;
+  text-align: center;
+
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.what-are-we-doing-list {
+  display: flex;
+  padding-left: 0;
+}
+
+.what-are-we-doing-list-item:not(:last-child) {
+  margin-right: 30px;
 }
 /* what are we doing section */
 
