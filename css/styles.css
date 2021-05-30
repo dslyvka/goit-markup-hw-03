@@ -137,7 +137,7 @@ body {
 }
 
 .page-nav {
-  margin-right: 331px;
+  margin-right: auto;
 }
 
 .nav-list {
@@ -301,17 +301,37 @@ body {
 .our-team-title {
   font-size: 36px;
   line-height: 1.17;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.our-team-list {
+  display: flex;
+}
+
+.our-team-list-item {
+  background: var(--background-color);
+
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px; 
+}
+
+.our-team-list-item:not(:last-child) {
+  margin-right: 30px;
 }
 
 .our-team-second-title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
+  text-align: center;
 }
 
 .our-team-text {
   font-size: 16px;
   line-height: 1.19;
+  text-align: center;
 }
 /* our team section */
 
@@ -349,13 +369,15 @@ body {
 
 .footer-container .logo {
   display: block;
-  padding-top: 60px;
+  padding-top: 0;
   padding-bottom: 0;
   margin-right: 0;
   margin-bottom: 20px;
 }
 .page-footer {
   background-color: var(--hero-background-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .footer-logo {
   color: var(--background-color);
@@ -392,6 +414,5 @@ body {
 
 .address-list:last-child {
   display: block;
-  padding-bottom: 60px;
 }
 /* footer */
