@@ -38,6 +38,7 @@ body {
 /* section defolt top and bootom paddings */
 .section {
   padding-top: 94px;
+  padding-bottom: 94px;
 }
 /* section defolt top and bootom paddings */
 
@@ -106,6 +107,10 @@ body {
 /* add my own defolt link styles */
 
 /* header */
+.page-header {
+  border-bottom: 1px solid #ECECEC;
+}
+
 .header-container {
   display: flex;
   align-items: center;
@@ -184,8 +189,15 @@ body {
 
 /* hero section */
 .hero {
+  height: 600px;
   background-color: var(--hero-background-color);
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
+
+.hero-container {
+  text-align: center;
+} 
 
 .hero-title {
   font-weight: 900;
@@ -193,8 +205,12 @@ body {
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  text-align: center;
 
   color: var(--background-color);
+
+  margin-bottom: 30px;
+  margin-top: 0;
 }
 
 .hero-button {
@@ -208,6 +224,9 @@ body {
 
   color: var(--background-color);
   background-color: var(--main-active-color);
+
+  padding: 10px 32px; 
+  border-radius: 4px;
 }
 /* hero section */
 
