@@ -48,66 +48,108 @@
     <main>
       <!-- portfolio section -->
       <section class="portfolio-section section">
-        <h1 class="hidden">Наше Портфолио</h1>
-        <!-- filter buttons -->
-        <ul class="filter-buttons list">
-          <li><button type="button" class="button current-button">Все</button></li>
-          <li><button type="button" class="button">Веб-сайты</button></li>
-          <li><button type="button" class="button">Приложения</button></li>
-          <li><button type="button" class="button">Дизайн</button></li>
-          <li><button type="button" class="button">Маркетинг</button></li>
-        </ul>
-        <!-- filter buttons -->
+        <div class="container portfolio-container">
+          <h1 class="hidden">Наше Портфолио</h1>
+          <!-- filter buttons -->
+          <ul class="filter-buttons list">
+            <li class="filter-buttons-item"><button type="button" class="button current-button">Все</button></li>
+            <li class="filter-buttons-item"><button type="button" class="button">Веб-сайты</button></li>
+            <li class="filter-buttons-item"><button type="button" class="button">Приложения</button></li>
+            <li class="filter-buttons-item"><button type="button" class="button">Дизайн</button></li>
+            <li class="filter-buttons-item"><button type="button" class="button">Маркетинг</button></li>
+          </ul>
+          <!-- filter buttons -->
 
-        <!-- portfolio list -->
-        <ul class="portfolio-list list">
-          <li>
-            <img src="./images/technokryak.jpg" alt="Веб-сайт" width="370" />
-            <h2 class="portfolio-title title">Технокряк</h2>
-            <p class="portfolio-text text">Веб-сайт</p>
-          </li>
-          <li>
-            <img src="./images/design.jpg" alt="Дизайн" width="370" />
-            <h2 class="portfolio-title title">Постер New Orlean vs Golden Star</h2>
-            <p class="portfolio-text text">Дизайн</p>
-          </li>
-          <li>
-            <img src="./images/app.jpg" alt="Приложение" width="370" />
-            <h2 class="portfolio-title title">Ресторан Seafood</h2>
-            <p class="portfolio-text text">Приложение</p>
-          </li>
-          <li>
-            <img src="./images/marketing.jpg" alt="Маркетинг" width="370" />
-            <h2 class="portfolio-title title">Проект Prime</h2>
-            <p class="portfolio-text text">Маркетинг</p>
-          </li>
-          <li>
-            <img src="./images/app-boxes.jpg" alt="Приложение" width="370" />
-            <h2 class="portfolio-title title">Проект Boxes</h2>
-            <p class="portfolio-text text">Приложение</p>
-          </li>
-          <li>
-            <img src="./images/website.jpg" alt="Веб-сайт" width="370" />
-            <h2 class="portfolio-title title">Inspiration has no Borders</h2>
-            <p class="portfolio-text text">Веб-сайт</p>
-          </li>
-          <li>
-            <img src="./images/design-limited.jpg" alt="Дизайн" width="370" />
-            <h2 class="portfolio-title title">Издание Limited Edition</h2>
-            <p class="portfolio-text text">Дизайн</p>
-          </li>
-          <li>
-            <img src="./images/marketing-lab.jpg" alt="Маркетинг" width="370" />
-            <h2 class="portfolio-title title">Проект LAB</h2>
-            <p class="portfolio-text text">Маркетинг</p>
-          </li>
-          <li>
-            <img src="./images/app-buisness.jpg" alt="Приложение" width="370" />
-            <h2 class="portfolio-title title">Growing Business</h2>
-            <p class="portfolio-text text">Приложение</p>
-          </li>
-        </ul>
-        <!-- portfolio list -->
+          <!-- portfolio list -->
+          <ul class="portfolio-list list">
+            <li class="portfolio-list-item">
+              <img
+                src="./images/technokryak.jpg"
+                alt="Веб-сайт"
+                width="370"
+                class="img-portfolio image"
+              />
+              <h2 class="portfolio-title title">Технокряк</h2>
+              <p class="portfolio-text text">Веб-сайт</p>
+            </li>
+            <li class="portfolio-list-item">
+              <img src="./images/design.jpg" alt="Дизайн" width="370" class="img-portfolio image" />
+              <h2 class="portfolio-title title">Постер New Orlean vs Golden Star</h2>
+              <p class="portfolio-text text">Дизайн</p>
+            </li>
+            <li class="portfolio-list-item">
+              <img
+                src="./images/app.jpg"
+                alt="Приложение"
+                width="370"
+                class="img-portfolio image"
+              />
+              <h2 class="portfolio-title title">Ресторан Seafood</h2>
+              <p class="portfolio-text text">Приложение</p>
+            </li>
+            <li class="portfolio-list-item">
+              <img
+                src="./images/marketing.jpg"
+                alt="Маркетинг"
+                width="370"
+                class="img-portfolio image"
+              />
+              <h2 class="portfolio-title title">Проект Prime</h2>
+              <p class="portfolio-text text">Маркетинг</p>
+            </li>
+            <li class="portfolio-list-item">
+              <img
+                src="./images/app-boxes.jpg"
+                alt="Приложение"
+                width="370"
+                class="img-portfolio image"
+              />
+              <h2 class="portfolio-title title">Проект Boxes</h2>
+              <p class="portfolio-text text">Приложение</p>
+            </li>
+            <li class="portfolio-list-item">
+              <img
+                src="./images/website.jpg"
+                alt="Веб-сайт"
+                width="370"
+                class="img-portfolio image"
+              />
+              <h2 class="portfolio-title title">Inspiration has no Borders</h2>
+              <p class="portfolio-text text">Веб-сайт</p>
+            </li>
+            <li class="portfolio-list-item">
+              <img
+                src="./images/design-limited.jpg"
+                alt="Дизайн"
+                width="370"
+                class="img-portfolio image"
+              />
+              <h2 class="portfolio-title title">Издание Limited Edition</h2>
+              <p class="portfolio-text text">Дизайн</p>
+            </li>
+            <li class="portfolio-list-item">
+              <img
+                src="./images/marketing-lab.jpg"
+                alt="Маркетинг"
+                width="370"
+                class="img-portfolio image"
+              />
+              <h2 class="portfolio-title title">Проект LAB</h2>
+              <p class="portfolio-text text">Маркетинг</p>
+            </li>
+            <li class="portfolio-list-item">
+              <img
+                src="./images/app-buisness.jpg"
+                alt="Приложение"
+                width="370"
+                class="img-portfolio image"
+              />
+              <h2 class="portfolio-title title">Growing Business</h2>
+              <p class="portfolio-text text">Приложение</p>
+            </li>
+          </ul>
+          <!-- portfolio list -->
+        </div>
       </section>
       <!-- portfolio section -->
     </main>
