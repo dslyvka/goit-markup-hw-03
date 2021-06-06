@@ -16,6 +16,11 @@ body {
   font-family: Roboto, sans-serif;
   font-style: normal;
 }
+
+ul {
+  margin: 0;
+  padding: 0;
+}
 /* body styles */
 
 /* HIDDEN */
@@ -305,6 +310,8 @@ body {
 /* our team section */
 .our-team-section {
   background-color: var(--white-buttons-color);
+
+  padding-top: 0;
 }
 
 .our-team-title {
@@ -386,12 +393,6 @@ body {
 }
 
 .portfolio-list-item {
-  border-style: solid;
-  border-left-width: 1px;
-  border-right-width: 1px;
-  border-bottom-width: 1px;
-  border-top-width: 0;
-  border-color: var(--portfolio-item-border);
   margin-bottom: 30px;
 }
 
@@ -399,17 +400,24 @@ body {
   margin-right: 30px;
 }
 
-.img-portfolio {
-  margin-bottom: 20px;
-}
+.text-wrapper {
+  border-color: var(--portfolio-item-border);
+  border-style: solid;
+  border-left-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-top-width: 0;
 
+  padding-top: 20px;
+  padding-right: 24px;
+  padding-bottom: 20px;
+  padding-left: 24px;
+}
 .portfolio-title {
   font-size: 18px;
   line-height: 2.0;
   letter-spacing: 0.06em;
   
-  padding-left: 24px;
-  padding-right: 24px;
   margin-top: 0;
   margin-bottom: 4px;
 }
@@ -418,9 +426,6 @@ body {
   font-size: 16px;
   line-height: 1.87;
 
-  padding-left: 24px;
-  padding-right: 24px;
-  padding-bottom: 20px;
   margin-top: 0;
   margin-bottom: 0;
 }
