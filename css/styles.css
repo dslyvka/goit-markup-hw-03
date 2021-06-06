@@ -288,6 +288,10 @@ ul {
 /* advantages section */
 
 /* what are we doing section */
+.what-are-we-doing-section {
+  padding-top: 0;
+}
+
 .what-are-we-doing-title {
   font-size: 36px;
   line-height: 1.17;
@@ -311,7 +315,6 @@ ul {
 .our-team-section {
   background-color: var(--white-buttons-color);
 
-  padding-top: 0;
 }
 
 .our-team-title {
